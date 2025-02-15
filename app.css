@@ -1,0 +1,66 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background */
+}
+
+/* Header Styling */
+#head {
+    background-color: #ffffff; /* White background for the header */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Button Styling */
+button {
+    background-color: #FF5A5F; /* Zomato's signature red color */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #e14e53; /* Darker red on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Button Disabled Style */
+button:disabled {
+    background-color: #ddd; /* Light grey for disabled state */
+    color: #888;
+    cursor: not-allowed;
+}
+
+/* Special Style for 'Rating' Button */
+#rating {
+    background-color: #4CAF50; /* Green for rating */
+}
+
+#rating:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Special Style for 'Open Now' Button */
+#open {
+    background-color: #00C853; /* Green for open now */
+}
+
+#open:hover {
+    background-color: #00b14d; /* Darker green on hover */
+}
+
+/* Spacing Between Buttons */
+button + button {
+    margin-left: 10px; /* Add space between buttons */
+}

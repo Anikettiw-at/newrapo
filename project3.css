@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+  background-color: black;
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height : 100vh;
+}
+
+
+#root{
+    background-color:rgb(91, 39, 39);
+    border-radius: 20px;
+
+}
+input{
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+button{
+    font-size: 20px;
+    margin-left: 75px;;
+
+}
+#result{
+    font-size: 30px;
+    margin-right: 45px;
+    margin-left: 75px;
+}
+h1{
+   display:flex;
+   justify-content: center;
+   justify-items: center;
+}
+
+#gender{
+    display: inline;
+
+}

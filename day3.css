@@ -1,0 +1,52 @@
+body{
+    font-family:  Arial, sans-serif;
+    background-color: #573732;
+    color: rgb(5, 53, 37);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+    
+
+}
+.contianer{
+
+    text-align: center;
+    background: blue;
+    padding: 20px 40px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px gray;
+   
+ 
+   
+}
+h1{
+    margin-bottom: 20px;
+    color: blueviolet;
+    font-style: italic;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+
+}
+.quotebox{
+    margin: 20px 0;
+    padding:20px;
+    border-left: 46px solid black;
+    font-style: oblique;
+    background-color:rosybrown;
+    border-radius: 20px;
+
+}
+button{
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 24px;
+    margin-left: 100px;
+    
+    
+
+}
