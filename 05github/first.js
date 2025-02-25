@@ -20,3 +20,5 @@ const footer = "footrr";
 console.log(footer);
 
 console.log("latest");
+
+// i am fixing some bug 
